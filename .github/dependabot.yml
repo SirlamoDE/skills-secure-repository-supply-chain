@@ -1,12 +1,11 @@
-```yaml
 version: 2
-   updates:
-     - package-ecosystem: "github-actions"
-       directory: "/"
-       schedule:
+  updates:
+    - package-ecosystem: "github-actions"
+      directory: "/"
+      schedule:
          interval: "monthly"
-     - package-ecosystem: "nuget"
-       directory: "/code/"Add commentMore actions
-       schedule:
+    - package-ecosystem: "nuget"
+      directory: "/code/"Add commentMore actions
+      schedule:
          interval: "weekly"
-```
+
